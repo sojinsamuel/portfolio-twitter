@@ -1,69 +1,29 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-	name: "Next.js + NextUI",
-	description: "Make beautiful websites regardless of your design experience.",
-	navItems: [
-		{
-			label: "Home",
-			href: "/",
-		},
+  name: "Sobin Samuel: Helping you succeed in getting exposure as an X Creator.",
+  description: "Helping you succeed in getting exposure as an X Creator.",
+  navItems: [
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Newsletter",
+      href: "/newsletter",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
+      label: "Tools",
+      href: "/trends",
+    },
+  ],
+  navMenuItems: [
+    {
+      label: "Newsletter",
+      href: "/newsletter",
     },
     {
-      label: "Blog",
-      href: "/blog",
+      label: "Tools",
+      href: "/trends",
     },
-    {
-      label: "About",
-      href: "/about",
-    }
-	],
-	navMenuItems: [
-		{
-			label: "Profile",
-			href: "/profile",
-		},
-		{
-			label: "Dashboard",
-			href: "/dashboard",
-		},
-		{
-			label: "Projects",
-			href: "/projects",
-		},
-		{
-			label: "Team",
-			href: "/team",
-		},
-		{
-			label: "Calendar",
-			href: "/calendar",
-		},
-		{
-			label: "Settings",
-			href: "/settings",
-		},
-		{
-			label: "Help & Feedback",
-			href: "/help-feedback",
-		},
-		{
-			label: "Logout",
-			href: "/logout",
-		},
-	],
-	links: {
-		github: "https://github.com/nextui-org/nextui",
-		twitter: "https://twitter.com/getnextui",
-		docs: "https://nextui.org",
-		discord: "https://discord.gg/9b6yyZKmH4",
-    sponsor: "https://patreon.com/jrgarciadev"
-	},
+  ],
+  links: {
+    twitter: "https://twitter.com/getnextui",
+  },
 };
