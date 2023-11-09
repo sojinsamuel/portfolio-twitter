@@ -8,6 +8,7 @@ import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 import Footer from "@/components/Footer";
 import CrispProvider from "@/components/CrispProvider";
+import { Analytics } from "@vercel/analytics/react";
 
 export const metadata: Metadata = {
   title: {
@@ -41,6 +42,7 @@ export default function RootLayout({
         )}
       >
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
+          <Analytics />
           <div className="relative flex flex-col h-screen">
             <Navbar />
             <main className="mx-auto max-w-7xl pt-16  flex-grow">

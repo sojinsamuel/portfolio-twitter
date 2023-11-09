@@ -59,15 +59,17 @@ function About() {
               >
                 Find me on X
               </Button>
-              <Button
-                as={Link}
+              <a
+                // target="_blank"
+                // as={Link}
                 href="mailto:sobinsamuel105@gmail.com"
-                variant="bordered"
-                startContent={<EnvelopeIcon width={20} height={20} />}
-                className=" border-black dark:border-white"
+                // variant="bordered"
+                // startContent={<EnvelopeIcon width={20} height={20} />}
+                className="flex gap-1 rounded-md border border-solid  px-6  justify-center items-center text-center border-black dark:border-white"
               >
+                <EnvelopeIcon width={20} height={20} />
                 Message
-              </Button>
+              </a>
             </div>
           </div>
           <Image width={400} src="/sobin-pic.jpg" alt="sobin samuel" />
