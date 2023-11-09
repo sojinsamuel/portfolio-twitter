@@ -1,11 +1,7 @@
 import React from "react";
-import {
-  Popover,
-  PopoverTrigger,
-  PopoverContent,
-  Button,
-  Input,
-} from "@nextui-org/react";
+import { Popover, PopoverTrigger, PopoverContent } from "@nextui-org/popover";
+import { Button } from "@nextui-org/button";
+import { Input } from "@nextui-org/input";
 import { InformationCircleIcon } from "@heroicons/react/24/solid";
 
 export default function MoreInfo() {

@@ -1,6 +1,6 @@
 import React from "react";
 import { title } from "../primitives";
-import { Image } from "@nextui-org/react";
+import { Image } from "@nextui-org/image";
 import Graph from "../Graph";
 
 function CTA() {

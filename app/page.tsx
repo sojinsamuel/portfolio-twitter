@@ -7,15 +7,11 @@ import { siteConfig } from "@/config/site";
 import { title, subtitle } from "@/components/primitives";
 import { GithubIcon } from "@/components/icons";
 import SquigglyLines from "@/components/SquigglyLines";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Link,
-  Image,
-  Input,
-} from "@nextui-org/react";
+import { Input } from "@nextui-org/input";
+import { Link } from "@nextui-org/link";
+import { Image } from "@nextui-org/image";
+import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
+
 import { Button } from "@nextui-org/button";
 import HeaderTabs from "@/components/HeaderTabs";
 import CTA from "@/components/steps/TrendSection";

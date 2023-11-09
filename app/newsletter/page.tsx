@@ -5,14 +5,10 @@ import RenderTweets from "@/components/RenderTweets";
 import SquigglyLines from "@/components/SquigglyLines";
 import { subtitle, title } from "@/components/primitives";
 import { Link } from "@nextui-org/link";
-import {
-  Button,
-  Card,
-  CardFooter,
-  CardHeader,
-  Input,
-  User,
-} from "@nextui-org/react";
+import { Card, CardFooter, CardHeader } from "@nextui-org/card";
+import { Button } from "@nextui-org/button";
+import { Input } from "@nextui-org/input";
+import { User } from "@nextui-org/user";
 import { useMemo, useState } from "react";
 
 export default function NewsLetter() {

@@ -8,16 +8,17 @@ import {
   NavbarBrand,
   NavbarItem,
   NavbarMenuItem,
+} from "@nextui-org/navbar";
+import {
   DropdownItem,
   DropdownTrigger,
   Dropdown,
   DropdownMenu,
-  Button,
-  Link,
-} from "@nextui-org/react";
-// import { Button } from "@nextui-org/button";
+} from "@nextui-org/dropdown";
+
+import { Button } from "@nextui-org/button";
 // import { Kbd } from "@nextui-org/kbd";
-// import { Link } from "@nextui-org/link";
+import { Link } from "@nextui-org/link";
 // import { Input } from "@nextui-org/input";
 
 import { link as linkStyles } from "@nextui-org/theme";

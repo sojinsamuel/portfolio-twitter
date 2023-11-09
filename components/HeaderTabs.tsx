@@ -1,7 +1,8 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
-import { Tabs, Tab, Card, CardBody, CardHeader } from "@nextui-org/react";
+import { Card, CardBody, CardHeader } from "@nextui-org/card";
+import { Tabs, Tab } from "@nextui-org/tabs";
 import CardAnimation from "./CardAnimation";
 import SeoMeter from "./SeoMeter";
 import "node_modules/video-react/dist/video-react.css";

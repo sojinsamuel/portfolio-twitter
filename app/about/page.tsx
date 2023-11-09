@@ -3,7 +3,7 @@
 
 import { PlayIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { Button } from "@nextui-org/button";
-import { Image } from "@nextui-org/react";
+import { Image } from "@nextui-org/image";
 import React from "react";
 
 function About() {

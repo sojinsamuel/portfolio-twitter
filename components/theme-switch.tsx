@@ -6,7 +6,7 @@ import { SwitchProps, useSwitch } from "@nextui-org/switch";
 import { useTheme } from "next-themes";
 import { useIsSSR } from "@react-aria/ssr";
 import clsx from "clsx";
-import { Switch } from "@nextui-org/react";
+import { Switch } from "@nextui-org/switch";
 
 import { SunFilledIcon, MoonFilledIcon } from "@/components/icons";
 
