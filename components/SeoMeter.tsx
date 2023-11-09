@@ -26,7 +26,7 @@ function SeoMeter() {
         textColor="#3498db"
         style={{ width: "500px", height: "300px" }}
       />
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center  -mt-12">
         <p className="text-lg">Improve your Google Light House Score</p>
         <MoreInfo />
       </div>

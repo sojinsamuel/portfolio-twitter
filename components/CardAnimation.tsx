@@ -64,7 +64,7 @@ function CardAnimation() {
       {props.map(({ x, y, rot, scale }, i) => (
         <animated.div className="deck " key={i} style={{ x, y }}>
           <animated.div
-            className="inner-div "
+            className="inner-div -mt-12"
             {...bind(i)}
             style={{
               transform: interpolate([rot, scale], trans),

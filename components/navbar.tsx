@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Navbar as NextUINavbar,
   NavbarContent,
@@ -6,11 +8,17 @@ import {
   NavbarBrand,
   NavbarItem,
   NavbarMenuItem,
-} from "@nextui-org/navbar";
-import { Button } from "@nextui-org/button";
-import { Kbd } from "@nextui-org/kbd";
-import { Link } from "@nextui-org/link";
-import { Input } from "@nextui-org/input";
+  DropdownItem,
+  DropdownTrigger,
+  Dropdown,
+  DropdownMenu,
+  Button,
+  Link,
+} from "@nextui-org/react";
+// import { Button } from "@nextui-org/button";
+// import { Kbd } from "@nextui-org/kbd";
+// import { Link } from "@nextui-org/link";
+// import { Input } from "@nextui-org/input";
 
 import { link as linkStyles } from "@nextui-org/theme";
 
@@ -39,7 +47,7 @@ export const Navbar = () => {
             <p className="font-bold text-inherit">Sobin Samuel</p>
           </NextLink>
         </NavbarBrand>
-        <ul className="hidden lg:flex gap-4 justify-start ml-2">
+        <ul className="hidden lg:flex flex-row-reverse gap-4 justify-start ml-2">
           {siteConfig.navItems.map((item) => (
             <NavbarItem key={item.href}>
               <NextLink
@@ -55,6 +63,38 @@ export const Navbar = () => {
             </NavbarItem>
           ))}
         </ul>
+        {/* <Dropdown>
+          <NavbarItem>
+            <DropdownTrigger>
+              <Button
+                disableRipple
+                className="p-0 bg-transparent data-[hover=true]:bg-transparent text-base -ml-4 border-none"
+                // endContent={icons.chevron}
+                radius="sm"
+                variant="light"
+              >
+                Tools
+              </Button>
+            </DropdownTrigger>
+          </NavbarItem>
+          <DropdownMenu
+            aria-label="Trending X Tags"
+            className="w-[340px]"
+            itemClasses={{
+              base: "gap-4",
+            }}
+          >
+            <DropdownItem
+              key="t"
+              href="/trends"
+              description="Tags that are trending on X. Find the most popular tags or keywords for your next viral post."
+              // startContent={icons.scale}
+            >
+              Find Trending Tags
+            </DropdownItem>
+            
+          </DropdownMenu>
+        </Dropdown> */}
       </NavbarContent>
 
       <NavbarContent
