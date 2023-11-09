@@ -4,6 +4,7 @@
 import { PlayIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 import { Button } from "@nextui-org/button";
 import { Image } from "@nextui-org/image";
+import Link from "next/link";
 import React from "react";
 
 function About() {
@@ -50,12 +51,17 @@ function About() {
             </a> */}
             <div className="flex flex-col gap-4 font-semibold sm:flex-row">
               <Button
+                target="_blank"
+                as={Link}
+                href="https://twitter.com/RiseWithSobin"
                 color="primary"
                 className="px-8 font-semibold  md:mr-6 lg:mr-8"
               >
                 Find me on X
               </Button>
               <Button
+                as={Link}
+                href="mailto:sobinsamuel105@gmail.com"
                 variant="bordered"
                 startContent={<EnvelopeIcon width={20} height={20} />}
                 className=" border-black dark:border-white"
